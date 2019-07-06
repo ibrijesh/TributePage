@@ -64,23 +64,24 @@ img {
      height: auto; 
 }
 
-#tribute-content{
- padding:3% 0.5%;
+#tribute-content{   
+ padding:3% 5%;
  font-weight: 500;
- margin: auto;
+ margin: 7% auto 2% auto;
  width: 50%;
  height: auto;
- padding: 0;
+  box-shadow: var(--shadow);
+  background-color: var(--primary);
 }
 
 @media only screen and (max-width: 900px){
 
     #tribute-content{
-        padding:3% 0.5%;
+        padding:5% 0;
         font-weight: 500;
         width: 100%;
         height: auto;
-        padding: 0;
+
     }
 }
 
