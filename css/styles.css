@@ -1,53 +1,95 @@
+/* CSS Variables */
+:root {
+    --primary:#fff;
+    --dark: #eee;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+
 body{
-    background-color: #eee;
-   font-family: 'Karla',
+    background-color:var(--primary);
+   font-family: 'Nunito',
    sans-serif;
    font-weight: 300;
+   padding: 2% 0.5% 3% 0.5%;
 }
 p{
-    font-family: 'Karla',
-    sans-serif;
+   font-family: 'Nunito',
+   sans-serif;
     font-weight: 300;
 }
-#title{
+#main{
+padding: 2% 0;    
+background-color:var(--dark);
+box-shadow: var(--shadow);
+}
+#title-honour{
     text-align: center;
     font-family: 'Quicksand',
     sans-serif;
     font-size: 20px;
 }
-#img-div{
-    text-align: center;
-    background-color: white;
-    padding:40px 20px 5px 20px;
-    margin:0px 10px;
-    width: auto;
+img {
+    width: 100%;
     height: auto;
 }
-img{
-     width: 100%;
-     height: auto;
-}
-#img-caption{
+#img-div{
     text-align: center;
-    margin-left: 25%;
-    width:50%;  
-    font-size: 15px;
-    font-family: sans-serif;
+    background-color: var(--primary);
+    padding:40px 9% 5px 9%;
+    margin:0 auto;
+    width: 80%;
+    height: auto;
+    box-shadow: var(--shadow);
+}
+@media only screen and (max-width: 900px) {
+    #img-div{
+     text-align: center;
+      background-color:var(--primary);
+     padding:40px 1% 5px 1%;
+     width: auto;
      height: auto;
+     margin:0 auto;
+     box-shadow: var(--shadow);
+    }
 }
 
-#tribute-info{
-padding:3% 25%;
-font-weight: 500;
- width: auto;
- height: auto;
+#img-caption-box{
+    text-align: center;
+    width:75%; 
+    margin: auto; 
+    font-size: 15px;
+    font-family: sans-serif;
+     height: auto; 
 }
+
+#tribute-content{
+ padding:3% ;
+ font-weight: 500;
+ margin: auto;
+ width: 50%;
+ height: auto;
+ padding: 0;
+}
+
+@media only screen and (max-width: 900px){
+
+    #tribute-content{
+        padding:3% ;
+        font-weight: 500;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
 h2{
     text-align: center;
     font-weight: 800;
 }
-#tribute-content{
+#tribute-info{
     padding:10px 0px;
+   
 }
 #tribute-link{
     text-align: center;
