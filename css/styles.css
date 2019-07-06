@@ -32,6 +32,7 @@ box-shadow: var(--shadow);
 img {
     width: 100%;
     height: auto;
+    box-shadow: var(--shadow);
 }
 #img-div{
     text-align: center;
