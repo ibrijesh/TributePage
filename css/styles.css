@@ -24,7 +24,7 @@ p{
     height: auto;
 }
 img{
-     width: auto;
+     width: 100%;
      height: auto;
 }
 #img-caption{
@@ -35,9 +35,7 @@ img{
     font-family: sans-serif;
      height: auto;
 }
-#img-caption-box{
-    
-}
+
 #tribute-info{
 padding:3% 25%;
 font-weight: 500;
