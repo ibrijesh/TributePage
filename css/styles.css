@@ -65,7 +65,7 @@ img {
 }
 
 #tribute-content{
- padding:3% ;
+ padding:3% 0.5%;
  font-weight: 500;
  margin: auto;
  width: 50%;
@@ -76,7 +76,7 @@ img {
 @media only screen and (max-width: 900px){
 
     #tribute-content{
-        padding:3% ;
+        padding:3% 0.5%;
         font-weight: 500;
         width: 100%;
         height: auto;
@@ -88,9 +88,8 @@ h2{
     text-align: center;
     font-weight: 800;
 }
-#tribute-content{
-    padding:10px 0;
-   
+#tribute-info{
+    padding:10px 0;  
 }
 #tribute-link{
     text-align: center;
